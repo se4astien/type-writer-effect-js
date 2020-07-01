@@ -86,7 +86,7 @@ class TypeWriter {
     this.isDeleting = false;
   }
 
-  // 2. Create method type()
+  // 1.2. Create method type()
   type() {
     //   console.log('Hello');
 
@@ -145,6 +145,6 @@ function init() {
   const words = JSON.parse(txtElement.getAttribute('data-words'));
   const wait = txtElement.getAttribute('data-wait');
 
-  // Init TypeWriter
+  // 3.1 Init TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
