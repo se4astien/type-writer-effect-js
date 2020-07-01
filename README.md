@@ -4,10 +4,10 @@ Website with a type writer effect using pure vanilla JavaScript
 
 ## Project Specifications
 
-- Choose number of letters
-- Select or not uppercase, lowercase, numbers and symbols
-- Generate a new password by clicking button
-- Copy it to clipboard
+- Create constructor class
+- Create method type()
+- Init on DOM load
+- Init App
 
 ## Online
 
